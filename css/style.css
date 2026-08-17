@@ -693,7 +693,7 @@ footer {
   color: #fff;
 }
 .mobile-actions .mobile-map {
-  background: #EA4335;
+  background: linear-gradient(135deg, #EA4335 0%, #FBBC04 35%, #34A853 65%, #4285F4 100%);
   color: #fff;
 }
 
