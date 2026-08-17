@@ -8,6 +8,7 @@
   --muted: #62676b;
   --line: #e5e5e2;
   --blue: #15a5dc;
+  --green: #22c55e;
   --max: 1180px;
 }
 
@@ -68,14 +69,14 @@ a { color: inherit; }
   align-items: center;
   justify-content: center;
 }
-/* Mobile: call-btn as compact icon circle, text hidden */
+/* Call button — green */
 .call-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  background: var(--yellow);
-  color: #171717;
+  background: var(--green);
+  color: #fff;
   font-weight: 850;
   white-space: nowrap;
   min-height: 44px;
@@ -87,6 +88,11 @@ a { color: inherit; }
   margin-left: auto;
   gap: 0;
   font-size: 0;
+  transition: all 0.3s ease;
+}
+.call-btn:hover {
+  background: #16a34a;
+  box-shadow: 0 8px 20px rgba(34, 197, 94, 0.4);
 }
 .call-text { display: none; }
 .hamburger span {
@@ -679,8 +685,8 @@ footer {
   font-weight: 850;
 }
 .mobile-actions a:first-child {
-  background: var(--yellow);
-  color: #111;
+  background: var(--green);
+  color: #fff;
 }
 
 /* ════════════════════════════════════════════
@@ -815,6 +821,21 @@ body.modal-open { overflow: hidden; }
   animation: none !important;
   transform: scale(1.06) translateY(-2px) !important;
   box-shadow: 0 10px 25px rgba(21, 165, 220, 0.35) !important;
+}
+
+/* Call action buttons — green */
+.call-action {
+  background: var(--green) !important;
+  border-color: var(--green) !important;
+  color: #fff !important;
+  animation: heartbeatCTA 2.5s infinite cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  animation-delay: 0.5s !important;
+}
+.call-action:hover {
+  background: #16a34a !important;
+  animation: none !important;
+  transform: scale(1.06) translateY(-2px) !important;
+  box-shadow: 0 10px 25px rgba(34, 197, 94, 0.35) !important;
 }
 
 .icon { flex-shrink: 0; }
