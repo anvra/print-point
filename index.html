@@ -2,38 +2,35 @@
 <html lang="en">
  <head>
   <meta charset="utf-8"/>
-  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
   <meta content="Print Point — Stationers &amp; Printers, Valsad. Labels, printing and signage services." name="description"/>
   <meta content="#111315" name="theme-color"/>
   <title>
    Print Point — Stationers &amp; Printers
   </title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
  </head>
  <body>
   <header class="topbar">
    <div class="container nav">
     <a aria-label="Print Point home" href="#home">
-     <img alt="Print Point" class="logo" src="assets/images/print-point-logo-transparent.png" style="background: black; padding: 6px 12px; border-radius: 12px;"/>
+     <img alt="Print Point" class="logo" src="assets/images/print-point-logo-transparent.png"/>
     </a>
-    <nav aria-label="Primary navigation" class="navlinks">
-     <a class="active" href="#home">
-      Home
-     </a>
-     <a href="#services">
-      Services
-     </a>
-     <a href="#about">
-      About
-     </a>
-     <a href="#contact">
-      Contact
-     </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+     <span></span>
+     <span></span>
+     <span></span>
+    </button>
+    <nav aria-label="Primary navigation" class="navlinks" id="navlinks">
+     <a class="active" href="#home">Home</a>
+     <a href="#services">Services</a>
+     <a href="#about">About</a>
+     <a href="#contact">Contact</a>
     </nav>
     <a class="call-btn" href="tel:+919924747775">
-     <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-      </path>
+     <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
      </svg>
      Call Now
     </a>
@@ -44,64 +41,40 @@
     <div class="container hero-inner">
      <div class="hero-copy">
       <div class="kicker">
-       <span>
-        Quality
-       </span>
-       <span>
-        Precision
-       </span>
-       <span>
-        On Time
-       </span>
+       <span>Quality</span>
+       <span>Precision</span>
+       <span>On Time</span>
       </div>
       <h1>
        Your Trusted Partner for
-       <span class="gradient-text">
-        Labels, Printing &amp; Signage
-       </span>
+       <span class="gradient-text">Labels, Printing &amp; Signage</span>
       </h1>
-      <p>
-       High quality printing solutions for your business, industry and personal needs.
-      </p>
+      <p>High quality printing solutions for your business, industry and personal needs.</p>
       <div class="actions">
        <a class="btn primary" href="mailto:printpoint.valsad@gmail.com?subject=Print%20Point%20Enquiry">
         Get a Quote
-        <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-         <path d="M5 12h14">
-         </path>
-         <path d="m12 5 7 7-7 7">
-         </path>
+        <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+         <path d="M5 12h14"></path>
+         <path d="m12 5 7 7-7 7"></path>
         </svg>
        </a>
        <a class="btn secondary" href="tel:+919924747775">
-        <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-         </path>
+        <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
         </svg>
         Call Now
        </a>
       </div>
      </div>
      <div aria-label="Illustration representing labels, signage and printing" class="visual">
-      <div class="print-orbit">
-      </div>
+      <div class="print-orbit"></div>
       <div class="visual-card">
        <div class="mock-labels">
-        <div class="roll">
-        </div>
-        <div class="roll dark">
-        </div>
-        <div class="sign">
-         SAFETY
-         <br/>
-         FIRST
-        </div>
-        <div class="sign yellow">
-         CAUTION
-        </div>
-        <div class="banner">
-         FLEX BANNER PRINTING
-        </div>
+        <div class="roll"></div>
+        <div class="roll dark"></div>
+        <div class="sign">SAFETY<br/>FIRST</div>
+        <div class="sign yellow">CAUTION</div>
+        <div class="banner">FLEX BANNER PRINTING</div>
        </div>
       </div>
      </div>
@@ -110,345 +83,210 @@
    <section class="section dark-section" id="services">
     <div class="container">
      <div class="section-head">
-      <span class="section-label">
-       Our Services
-      </span>
-      <h2>
-       What We Offer
-      </h2>
-      <p>
-       Explore our comprehensive range of high-quality printing, precision labeling, and premium commercial signage solutions.
-      </p>
+      <span class="section-label">Our Services</span>
+      <h2>What We Offer</h2>
+      <p>Explore our comprehensive range of high-quality printing, precision labeling, and premium commercial signage solutions.</p>
      </div>
      <div class="services-grid">
       <article class="service-card" onclick="openLightbox('assets/service_1.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z">
-        </path>
-        <path d="M7 7h.01">
-        </path>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"></path>
+        <path d="M7 7h.01"></path>
        </svg>
        <div>
-        <h3>
-         Industrial Labels
-        </h3>
-        <p>
-         Durable, high-performance labels for heavy-duty industrial applications.
-        </p>
+        <h3>Industrial Labels</h3>
+        <p>Durable, high-performance labels for heavy-duty industrial applications.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
       <article class="service-card" onclick="openLightbox('assets/service_2.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <circle cx="12" cy="5" r="3">
-        </circle>
-        <line x1="12" x2="12" y1="22" y2="8">
-        </line>
-        <line x1="5" x2="19" y1="12" y2="12">
-        </line>
-        <path d="M2 15a10 10 0 0 0 20 0">
-        </path>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <circle cx="12" cy="5" r="3"></circle>
+        <line x1="12" x2="12" y1="22" y2="8"></line>
+        <line x1="5" x2="19" y1="12" y2="12"></line>
+        <path d="M2 15a10 10 0 0 0 20 0"></path>
        </svg>
        <div>
-        <h3>
-         IMO Labels
-        </h3>
-        <p>
-         Certified marine hazard and safety labels complying with international standards.
-        </p>
+        <h3>IMO Labels</h3>
+        <p>Certified marine hazard and safety labels complying with international standards.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
       <article class="service-card" onclick="openLightbox('assets/service_3.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <path d="M3 7V5a2 2 0 0 1 2-2h2">
-        </path>
-        <path d="M17 3h2a2 2 0 0 1 2 2v2">
-        </path>
-        <path d="M21 17v2a2 2 0 0 1-2 2h-2">
-        </path>
-        <path d="M7 21H5a2 2 0 0 1-2-2v-2">
-        </path>
-        <path d="M8 7v10">
-        </path>
-        <path d="M12 7v10">
-        </path>
-        <path d="M16 7v10">
-        </path>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <path d="M3 7V5a2 2 0 0 1 2-2h2"></path>
+        <path d="M17 3h2a2 2 0 0 1 2 2v2"></path>
+        <path d="M21 17v2a2 2 0 0 1-2 2h-2"></path>
+        <path d="M7 21H5a2 2 0 0 1-2-2v-2"></path>
+        <path d="M8 7v10"></path>
+        <path d="M12 7v10"></path>
+        <path d="M16 7v10"></path>
        </svg>
        <div>
-        <h3>
-         Barcode Labels
-        </h3>
-        <p>
-         Crisp, scannable precision barcode and QR code printing.
-        </p>
+        <h3>Barcode Labels</h3>
+        <p>Crisp, scannable precision barcode and QR code printing.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
       <article class="service-card" onclick="openLightbox('assets/service_4.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <polyline points="6 9 6 2 18 2 18 9">
-        </polyline>
-        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2">
-        </path>
-        <rect height="8" width="12" x="6" y="14">
-        </rect>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <polyline points="6 9 6 2 18 2 18 9"></polyline>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+        <rect height="8" width="12" x="6" y="14"></rect>
        </svg>
        <div>
-        <h3>
-         Barcode Printer cartridge
-        </h3>
-        <p>
-         Premium ink ribbons and cartridges for seamless barcode printing.
-        </p>
+        <h3>Barcode Printer cartridge</h3>
+        <p>Premium ink ribbons and cartridges for seamless barcode printing.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
       <article class="service-card" onclick="openLightbox('assets/service_5.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <ellipse cx="12" cy="5" rx="9" ry="3">
-        </ellipse>
-        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5">
-        </path>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
        </svg>
        <div>
-        <h3>
-         Labels in roll form
-        </h3>
-        <p>
-         High-volume custom labels perfectly spooled for automated applicators.
-        </p>
+        <h3>Labels in roll form</h3>
+        <p>High-volume custom labels perfectly spooled for automated applicators.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
       <article class="service-card" onclick="openLightbox('assets/service_6.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z">
-        </path>
-        <line x1="12" x2="12" y1="9" y2="13">
-        </line>
-        <line x1="12" x2="12.01" y1="17" y2="17">
-        </line>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path>
+        <line x1="12" x2="12" y1="9" y2="13"></line>
+        <line x1="12" x2="12.01" y1="17" y2="17"></line>
        </svg>
        <div>
-        <h3>
-         Safety Sign Board
-        </h3>
-        <p>
-         High-visibility regulatory and hazard signage for workplace safety.
-        </p>
+        <h3>Safety Sign Board</h3>
+        <p>High-visibility regulatory and hazard signage for workplace safety.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
       <article class="service-card" onclick="openLightbox('assets/service_7.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <circle cx="12" cy="12" r="4">
-        </circle>
-        <path d="M12 3v1">
-        </path>
-        <path d="M12 20v1">
-        </path>
-        <path d="M3 12h1">
-        </path>
-        <path d="M20 12h1">
-        </path>
-        <path d="m18.36 5.64-.7.7">
-        </path>
-        <path d="m6.34 17.66-.7.7">
-        </path>
-        <path d="m5.64 5.64.7.7">
-        </path>
-        <path d="m17.66 17.66.7.7">
-        </path>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <circle cx="12" cy="12" r="4"></circle>
+        <path d="M12 3v1"></path>
+        <path d="M12 20v1"></path>
+        <path d="M3 12h1"></path>
+        <path d="M20 12h1"></path>
+        <path d="m18.36 5.64-.7.7"></path>
+        <path d="m6.34 17.66-.7.7"></path>
+        <path d="m5.64 5.64.7.7"></path>
+        <path d="m17.66 17.66.7.7"></path>
        </svg>
        <div>
-        <h3>
-         Ratro Radium
-        </h3>
-        <p>
-         Ultra-reflective, glow-in-the-dark radium signage for maximum nighttime visibility.
-        </p>
+        <h3>Ratro Radium</h3>
+        <p>Ultra-reflective, glow-in-the-dark radium signage for maximum nighttime visibility.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
       <article class="service-card" onclick="openLightbox('assets/service_8.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z">
-        </path>
-        <circle cx="12" cy="12" r="3">
-        </circle>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path>
+        <circle cx="12" cy="12" r="3"></circle>
        </svg>
        <div>
-        <h3>
-         Oneway Vision
-        </h3>
-        <p>
-         Perforated window graphics for stunning exterior branding and interior privacy.
-        </p>
+        <h3>Oneway Vision</h3>
+        <p>Perforated window graphics for stunning exterior branding and interior privacy.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
       <article class="service-card" onclick="openLightbox('assets/service_9.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <polygon points="12 2 2 7 12 12 22 7 12 2">
-        </polygon>
-        <polyline points="2 12 12 17 22 12">
-        </polyline>
-        <polyline points="2 17 12 22 22 17">
-        </polyline>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+        <polyline points="2 12 12 17 22 12"></polyline>
+        <polyline points="2 17 12 22 22 17"></polyline>
        </svg>
        <div>
-        <h3>
-         Clear Vinyl
-        </h3>
-        <p>
-         Transparent, waterproof vinyl stickers for a sleek 'no-label' look.
-        </p>
+        <h3>Clear Vinyl</h3>
+        <p>Transparent, waterproof vinyl stickers for a sleek 'no-label' look.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
       <article class="service-card" onclick="openLightbox('assets/service_10.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <path d="M18 22H4a2 2 0 0 1-2-2V6">
-        </path>
-        <path d="m22 13-1.296-1.296a2.41 2.41 0 0 0-3.408 0L11 18">
-        </path>
-        <circle cx="12" cy="8" r="2">
-        </circle>
-        <rect height="16" rx="2" width="16" x="6" y="2">
-        </rect>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <path d="M18 22H4a2 2 0 0 1-2-2V6"></path>
+        <path d="m22 13-1.296-1.296a2.41 2.41 0 0 0-3.408 0L11 18"></path>
+        <circle cx="12" cy="8" r="2"></circle>
+        <rect height="16" rx="2" width="16" x="6" y="2"></rect>
        </svg>
        <div>
-        <h3>
-         Flex Banner etc.
-        </h3>
-        <p>
-         Large-format, weather-resistant flex banners for high-impact outdoor advertising.
-        </p>
+        <h3>Flex Banner etc.</h3>
+        <p>Large-format, weather-resistant flex banners for high-impact outdoor advertising.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
       <article class="service-card" onclick="openLightbox('assets/service_11.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <rect height="14" rx="2" ry="2" width="14" x="8" y="8">
-        </rect>
-        <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2">
-        </path>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <rect height="14" rx="2" ry="2" width="14" x="8" y="8"></rect>
+        <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
        </svg>
        <div>
-        <h3>
-         Offset Printing
-        </h3>
-        <p>
-         Premium bulk commercial printing with unmatched color accuracy and sharpness.
-        </p>
+        <h3>Offset Printing</h3>
+        <p>Premium bulk commercial printing with unmatched color accuracy and sharpness.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
       <article class="service-card" onclick="openLightbox('assets/service_12.png')">
-       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="32">
-        <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
-        </path>
-        <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66">
-        </path>
-        <path d="m18 15-2-2">
-        </path>
-        <path d="m15 18-2-2">
-        </path>
+       <svg class="service-icon-svg" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="32">
+        <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+        <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66"></path>
+        <path d="m18 15-2-2"></path>
+        <path d="m15 18-2-2"></path>
        </svg>
        <div>
-        <h3>
-         Kankotri Printing
-        </h3>
-        <p>
-         Elegant, bespoke Indian wedding invitations crafted with traditional artistry.
-        </p>
+        <h3>Kankotri Printing</h3>
+        <p>Elegant, bespoke Indian wedding invitations crafted with traditional artistry.</p>
        </div>
-       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="margin-left: auto; color: #a0a5aa; flex-shrink: 0;" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
-        <rect height="18" rx="2" ry="2" width="18" x="3" y="3">
-        </rect>
-        <circle cx="8.5" cy="8.5" r="1.5">
-        </circle>
-        <polyline points="21 15 16 10 5 21">
-        </polyline>
+       <svg aria-label="View sample" class="sample-icon" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="22">
+        <rect height="18" rx="2" ry="2" width="18" x="3" y="3"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
        </svg>
       </article>
      </div>
@@ -457,81 +295,51 @@
    <section class="section quality" id="about">
     <div class="container">
      <div class="section-head" style="text-align:center">
-      <span class="section-label" style="color:var(--orange)">
-       Why Choose Print Point
-      </span>
-      <h2>
-       Quality You Can Trust
-      </h2>
+      <span class="section-label" style="color:var(--orange)">Why Choose Print Point</span>
+      <h2>Quality You Can Trust</h2>
      </div>
      <div class="quality-grid">
       <div class="quality-item">
        <div class="quality-icon">
-        <svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-         <polygon points="6 3 18 3 22 9 12 22 2 9">
-         </polygon>
-         <path d="m12 22 4-13-3-6">
-         </path>
-         <path d="m12 22-4-13 3-6">
-         </path>
-         <path d="m2 9 20 0">
-         </path>
+        <svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+         <polygon points="6 3 18 3 22 9 12 22 2 9"></polygon>
+         <path d="m12 22 4-13-3-6"></path>
+         <path d="m12 22-4-13 3-6"></path>
+         <path d="m2 9 20 0"></path>
         </svg>
        </div>
-       <strong>
-        High Quality
-       </strong>
-       <span>
-        Sharp prints &amp; durable materials
-       </span>
+       <strong>High Quality</strong>
+       <span>Sharp prints &amp; durable materials</span>
       </div>
       <div class="quality-item">
        <div class="quality-icon">
-        <svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-         <circle cx="12" cy="12" r="10">
-         </circle>
-         <polyline points="12 6 12 12 16 14">
-         </polyline>
+        <svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+         <circle cx="12" cy="12" r="10"></circle>
+         <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
        </div>
-       <strong>
-        On-Time Delivery
-       </strong>
-       <span>
-        Reliable &amp; prompt service
-       </span>
+       <strong>On-Time Delivery</strong>
+       <span>Reliable &amp; prompt service</span>
       </div>
       <div class="quality-item">
        <div class="quality-icon">
-        <svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-         <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z">
-         </path>
-         <circle cx="12" cy="12" r="3">
-         </circle>
+        <svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+         <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path>
+         <circle cx="12" cy="12" r="3"></circle>
         </svg>
        </div>
-       <strong>
-        Wide Range
-       </strong>
-       <span>
-        From labels to banners
-       </span>
+       <strong>Wide Range</strong>
+       <span>From labels to banners</span>
       </div>
       <div class="quality-item">
        <div class="quality-icon">
-        <svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14">
-         </path>
-         <polyline points="22 4 12 14.01 9 11.01">
-         </polyline>
+        <svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+         <polyline points="22 4 12 14.01 9 11.01"></polyline>
         </svg>
        </div>
-       <strong>
-        Customer Focus
-       </strong>
-       <span>
-        Your satisfaction matters
-       </span>
+       <strong>Customer Focus</strong>
+       <span>Your satisfaction matters</span>
       </div>
      </div>
     </div>
@@ -540,29 +348,19 @@
     <div class="contact-box">
      <div class="contact-grid">
       <div class="contact-copy">
-       <h2 class="contact-title">
-        Get in
-        <b>
-         Touch
-        </b>
-       </h2>
-       <p>
-        Let's discuss your printing and labelling requirements. We're here to help.
-       </p>
+       <h2 class="contact-title">Get in <b>Touch</b></h2>
+       <p>Let's discuss your printing and labelling requirements. We're here to help.</p>
        <div class="actions">
         <a class="btn primary" href="tel:+919924747775">
-         <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-          </path>
+         <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
          </svg>
          Call Jatin Patel
         </a>
         <a class="btn secondary" href="mailto:printpoint.valsad@gmail.com">
-         <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-          <rect height="16" rx="2" width="20" x="2" y="4">
-          </rect>
-          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7">
-          </path>
+         <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+          <rect height="16" rx="2" width="20" x="2" y="4"></rect>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
          </svg>
          Email
         </a>
@@ -571,77 +369,52 @@
       <div class="contact-list">
        <div class="contact-item">
         <div class="contact-icon">
-         <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-          </path>
+         <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
          </svg>
         </div>
         <div>
-         <strong>
-          Jatin Patel
-         </strong>
-         <a href="tel:+919924747775">
-          +91 99247 47775
-         </a>
-         |
-         <a href="tel:+919925566924">
-          +91 99255 66924
-         </a>
-        </div>
-       </div>
-       <div class="contact-item">
-        <div class="contact-icon">
-         <svg class="icon" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
-          <rect height="20" rx="2" ry="2" width="14" x="5" y="2">
-          </rect>
-          <line x1="12" x2="12.01" y1="18" y2="18">
-          </line>
-         </svg>
-        </div>
-        <div>
-         <strong>
-          Mobile
-         </strong>
-         <a href="tel:+919898301353">
-          +91 9898 301 353
-         </a>
-        </div>
-       </div>
-       <div class="contact-item">
-        <div class="contact-icon">
-         <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-          <rect height="16" rx="2" width="20" x="2" y="4">
-          </rect>
-          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7">
-          </path>
-         </svg>
-        </div>
-        <div>
-         <strong>
-          Email
-         </strong>
-         <a href="mailto:printpoint.valsad@rediffmail.com">
-          printpoint.valsad@rediffmail.com
-         </a>
+         <strong>Jatin Patel</strong>
+         <a href="tel:+919924747775">+91 99247 47775</a>
          <br/>
-         <a href="mailto:printpoint.valsad@gmail.com">
-          printpoint.valsad@gmail.com
-         </a>
+         <a href="tel:+919925566924">+91 99255 66924</a>
         </div>
        </div>
        <div class="contact-item">
         <div class="contact-icon">
-         <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z">
-          </path>
-          <circle cx="12" cy="10" r="3">
-          </circle>
+         <svg class="icon" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="20">
+          <rect height="20" rx="2" ry="2" width="14" x="5" y="2"></rect>
+          <line x1="12" x2="12.01" y1="18" y2="18"></line>
          </svg>
         </div>
         <div>
-         <strong>
-          Address
-         </strong>
+         <strong>Mobile</strong>
+         <a href="tel:+919898301353">+91 9898 301 353</a>
+        </div>
+       </div>
+       <div class="contact-item">
+        <div class="contact-icon">
+         <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+          <rect height="16" rx="2" width="20" x="2" y="4"></rect>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+         </svg>
+        </div>
+        <div>
+         <strong>Email</strong>
+         <a href="mailto:printpoint.valsad@rediffmail.com">printpoint.valsad@rediffmail.com</a>
+         <br/>
+         <a href="mailto:printpoint.valsad@gmail.com">printpoint.valsad@gmail.com</a>
+        </div>
+       </div>
+       <div class="contact-item">
+        <div class="contact-icon">
+         <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+         </svg>
+        </div>
+        <div>
+         <strong>Address</strong>
          <a href="https://maps.app.goo.gl/sAMYAX9z5xfdUtf87" rel="noopener" target="_blank">
           Shop 5, New Ava Complex, Opp. Hotel Navchetan,
           <br/>
@@ -658,20 +431,12 @@
    <div class="container footer-grid">
     <img alt="Print Point logo" class="footer-logo" src="assets/images/print-point-logo-transparent.png"/>
     <div>
-     <div class="footer-main">
-      PRINT POINT
-     </div>
-     <div class="footer-sub">
-      Stationers &amp; Printers
-     </div>
-     <div class="footer-links">
-      Labels   •   Printing   •   Signage   •   More
-     </div>
+     <div class="footer-main">PRINT POINT</div>
+     <div class="footer-sub">Stationers &amp; Printers</div>
+     <div class="footer-links">Labels   •   Printing   •   Signage   •   More</div>
     </div>
-    <div style="font-size:1.25rem;font-style:italic">
-     Let's Print
-     <br/>
-     Your Ideas!
+    <div class="footer-tagline">
+     Let's Print<br/>Your Ideas!
     </div>
    </div>
    <div class="container copyright">
@@ -680,40 +445,32 @@
   </footer>
   <div aria-label="Quick contact" class="mobile-actions">
    <a href="tel:+919924747775">
-    <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-     </path>
+    <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
     Call
    </a>
    <a href="mailto:printpoint.valsad@gmail.com">
-    <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-     <rect height="16" rx="2" width="20" x="2" y="4">
-     </rect>
-     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7">
-     </path>
+    <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+     <rect height="16" rx="2" width="20" x="2" y="4"></rect>
+     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
     </svg>
     Email
    </a>
    <a href="https://maps.app.goo.gl/sAMYAX9z5xfdUtf87" rel="noopener" target="_blank">
-    <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-     <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z">
-     </path>
-     <circle cx="12" cy="10" r="3">
-     </circle>
+    <svg class="icon" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+     <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+     <circle cx="12" cy="10" r="3"></circle>
     </svg>
     Map
    </a>
   </div>
-  <script src="js/main.js" defer></script>
   <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
-   <span class="lightbox-close" onclick="closeLightbox(event)">
-    ×
-   </span>
+   <span class="lightbox-close" onclick="closeLightbox(event)">×</span>
    <div class="lightbox-content">
     <img alt="Service Sample" id="lightbox-img" src=""/>
    </div>
   </div>
-  
+  <script src="js/main.js" defer></script>
  </body>
 </html>
