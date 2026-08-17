@@ -7,6 +7,7 @@
   --orange: #f05a24;
   --muted: #62676b;
   --line: #e5e5e2;
+  --blue: #15a5dc;
   --max: 1180px;
 }
 
@@ -799,6 +800,21 @@ body.modal-open { overflow: hidden; }
 .btn.secondary:hover {
   animation: none;
   transform: scale(1.04) translateY(-2px);
+}
+
+/* Email button — logo blue */
+.email-btn {
+  background: var(--blue) !important;
+  border-color: var(--blue) !important;
+  color: #fff !important;
+  animation: heartbeatCTA 2.5s infinite cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  animation-delay: 1.5s !important;
+}
+.email-btn:hover {
+  background: #1192c4 !important;
+  animation: none !important;
+  transform: scale(1.06) translateY(-2px) !important;
+  box-shadow: 0 10px 25px rgba(21, 165, 220, 0.35) !important;
 }
 
 .icon { flex-shrink: 0; }
