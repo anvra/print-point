@@ -688,6 +688,14 @@ footer {
   background: var(--green);
   color: #fff;
 }
+.mobile-actions .mobile-email {
+  background: var(--blue);
+  color: #fff;
+}
+.mobile-actions .mobile-map {
+  background: #EA4335;
+  color: #fff;
+}
 
 /* ════════════════════════════════════════════
    LIGHTBOX
