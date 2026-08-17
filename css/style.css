@@ -66,10 +66,28 @@ a { color: inherit; }
   min-height: 44px;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
 }
-/* Hide header call-btn on mobile — sticky bar handles it */
-.call-btn { display: none; }
+/* Mobile: call-btn as compact icon circle, text hidden */
+.call-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: var(--yellow);
+  color: #171717;
+  font-weight: 850;
+  white-space: nowrap;
+  min-height: 44px;
+  min-width: 44px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  margin-left: auto;
+  gap: 0;
+  font-size: 0;
+}
+.call-text { display: none; }
 .hamburger span {
   display: block;
   width: 22px;
@@ -830,7 +848,16 @@ body.modal-open { overflow: hidden; }
 
   /* Show desktop nav, hide hamburger */
   .hamburger { display: none; }
-  .call-btn { display: inline-flex; }
+  .call-btn {
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    padding: 10px 18px;
+    border-radius: 999px;
+    gap: 8px;
+    font-size: 0.88rem;
+  }
+  .call-text { display: inline; }
   .navlinks {
     display: flex !important;
     align-items: center;
