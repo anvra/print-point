@@ -66,7 +66,10 @@ a { color: inherit; }
   min-height: 44px;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
+/* Hide header call-btn on mobile — sticky bar handles it */
+.call-btn { display: none; }
 .hamburger span {
   display: block;
   width: 22px;
@@ -827,6 +830,7 @@ body.modal-open { overflow: hidden; }
 
   /* Show desktop nav, hide hamburger */
   .hamburger { display: none; }
+  .call-btn { display: inline-flex; }
   .navlinks {
     display: flex !important;
     align-items: center;
